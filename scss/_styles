@@ -1,0 +1,177 @@
+* {
+ font-family: 'Poppins', sans-serif;
+ margin: 0px;
+ padding: 0px;
+
+
+}
+
+body {
+  background-image: url(../assets/images/fondo1.webp);
+  background-size: contain;
+}
+
+  
+footer{ 
+margin-top: 200px;
+.imgFooter {
+width: 300px;
+text-decoration: none;
+ list-style: none;
+}
+.imgFooter2 {
+ position:relative;
+ transition: all 1s;
+}
+
+.imgFooter2:hover {
+transform: scale(1.2);
+}
+}
+
+.h1s {
+font-size: 60px;
+letter-spacing: 2.5px;
+text-shadow:5px 5px 4px #000000;
+margin-top: 100px;
+animation-duration: 2s;
+animation-name: aparecer;
+}
+
+@keyframes aparecer {
+0% {
+ opacity: 0;
+  }
+  100% {
+    opacity: 1;
+   }
+}
+
+h5 {
+  font-size: 17px;
+  }
+	
+h4 {
+font-size: 25px;
+letter-spacing: 2px;
+}
+
+h3 {
+font-size: 32px;
+letter-spacing: 4px;
+margin-bottom: 50px;
+}
+
+h2 {
+font-size: 40px;
+letter-spacing: 4px;
+}
+
+.parrafoMain {
+font-size: 17px;
+letter-spacing: 1px;
+line-height: 2;
+margin-top: 45px;
+}
+
+
+.contactoRedes {
+margin-top: 50px
+}
+
+.imgContactoRedes {
+transition: all 1s;
+margin-bottom: 200px;
+}
+
+.imgContactoRedes:hover {
+transform: scale(1.2);
+}
+
+.logoPaginaContacto {
+width: 200px; 
+height: 200px;
+}
+
+.contacto {
+  margin-top: 200px;
+  margin-bottom: 200px;
+  }
+
+.parrafoNosotros {
+font-size: 20px;
+letter-spacing: 1px;
+line-height: 2;
+}
+
+
+.imgNosotros {
+width: 200px; 
+height: 200px;
+}
+
+.nosotros {
+margin-top: 50px;
+}
+
+.articleNosotros {
+font-size: 15px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 768px){
+
+  .h1s {
+    margin-top: 100px;
+font-size: 30px;
+line-height: 80px;
+}
+ 
+h4 {
+font-size: 18px;
+}
+
+h2 {
+font-size: 25px;
+}
+
+.parrafoMain {
+font-size: 15px;
+}
+
+.contacto {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  }
+
+.contactoMq {
+  margin-bottom: 100px;
+}
+
+#tituloRedes {
+font-size: 20px;
+}
+
+.imgContactoRedes {
+transition: all 1s;
+margin-bottom: 100px;
+width: 40px;
+height: 40px;
+}
+
+.parrafoNosotros {
+font-size: 16px;
+}
+
+.articleNosotros {
+font-size: 15px;
+}
+
+h3 {
+font-size: 20px;
+}
+}
