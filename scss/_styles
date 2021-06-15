@@ -1,9 +1,6 @@
 * {
- font-family: 'Poppins', sans-serif;
  margin: 0px;
  padding: 0px;
-
-
 }
 
 body {
@@ -30,7 +27,6 @@ transform: scale(1.2);
 }
 
 .h1s {
-font-size: 60px;
 letter-spacing: 2.5px;
 text-shadow:5px 5px 4px #000000;
 margin-top: 100px;
@@ -47,9 +43,6 @@ animation-name: aparecer;
    }
 }
 
-h5 {
-  font-size: 17px;
-  }
 	
 h4 {
 font-size: 25px;
@@ -57,9 +50,7 @@ letter-spacing: 2px;
 }
 
 h3 {
-font-size: 32px;
 letter-spacing: 4px;
-margin-bottom: 50px;
 }
 
 h2 {
@@ -75,40 +66,19 @@ margin-top: 45px;
 }
 
 
-.contactoRedes {
-margin-top: 50px
-}
-
 .imgContactoRedes {
 transition: all 1s;
-margin-bottom: 200px;
 }
 
 .imgContactoRedes:hover {
 transform: scale(1.2);
 }
 
-.logoPaginaContacto {
-width: 200px; 
-height: 200px;
-}
-
-.contacto {
-  margin-top: 200px;
-  margin-bottom: 200px;
-  }
-
 .parrafoNosotros {
-font-size: 20px;
 letter-spacing: 1px;
 line-height: 2;
 }
 
-
-.imgNosotros {
-width: 200px; 
-height: 200px;
-}
 
 .nosotros {
 margin-top: 50px;
