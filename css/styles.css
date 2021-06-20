@@ -12,6 +12,9 @@ body {
   background-image: url(../assets/images/fondo1.webp);
   background-size: contain; }
 
+.bg-transparent.scrolled {
+  background: #7C380E !important; }
+
 footer {
   margin-top: 200px; }
   footer .imgFooter {

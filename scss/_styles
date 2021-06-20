@@ -8,7 +8,11 @@ body {
   background-size: contain;
 }
 
-  
+.bg-transparent.scrolled {
+background:#7C380E !important;
+}
+
+
 footer{ 
 margin-top: 200px;
 .imgFooter {
@@ -91,6 +95,8 @@ font-size: 20px;
 li {
 letter-spacing: 3px;
 }
+
+
 
 
 @media only screen and (max-width: 768px){
