@@ -33,6 +33,7 @@ footer {
 
 .h1s {
   letter-spacing: 2.5px;
+  font-size: 60px;
   text-shadow: 5px 5px 4px #000000;
   margin-top: 100px;
   animation-duration: 2s;
@@ -89,15 +90,25 @@ li {
 
 @media only screen and (max-width: 768px) {
   .h1s {
-    margin-top: 100px;
+    margin-top: 50px;
     font-size: 30px;
-    line-height: 80px; }
+    line-height: 50px; }
   h4 {
     font-size: 18px; }
-  h2 {
-    font-size: 25px; }
+  .tituloH3 {
+    font-size: 15px;
+    line-height: 20px; }
+  .tituloH2 {
+    font-size: 20px;
+    line-height: 30px; }
   .parrafoMain {
-    font-size: 15px; }
+    font-size: 13px; }
+  imgNosotros {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  .videoPortfolio {
+    height: 50%; }
   .contacto {
     margin-top: 100px;
     margin-bottom: 100px; }
@@ -111,11 +122,9 @@ li {
     width: 40px;
     height: 40px; }
   .parrafoNosotros {
-    font-size: 16px; }
+    font-size: 12px; }
   .articleNosotros {
-    font-size: 15px; }
-  h3 {
-    font-size: 20px; } }
+    font-size: 15px; } }
 
 :root {
   --blue: #007bff;
