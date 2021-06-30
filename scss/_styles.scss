@@ -20,11 +20,8 @@ filter: drop-shadow(0 2px 10px rgba(0, 0, 0, 0.7));
 
 footer{ 
 margin-top: 200px;
-.imgFooter {
-width: 300px;
-text-decoration: none;
- list-style: none;
-}
+background-color: #141414;
+filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.7));
 .imgFooter2 {
  position:relative;
  transition: all 1s;
@@ -33,6 +30,12 @@ text-decoration: none;
 .imgFooter2:hover {
 transform: scale(1.2);
 }
+}
+
+.color
+{
+font-size: 12px;
+color: white;
 }
 
 .h1s {
@@ -177,6 +180,11 @@ font-size: 12px;
 
 .articleNosotros {
 font-size: 15px;
+}
+
+.color
+{
+font-size: 10px;
 }
 
 }
