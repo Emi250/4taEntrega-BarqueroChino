@@ -66,6 +66,12 @@ h2 {
 .colorIndexH3 {
   color: #F98340; }
 
+.spanIndex {
+  font-size: 28px; }
+
+.spanServicios {
+  font-size: 25px; }
+
 .imgContactoRedes {
   transition: all 1s; }
 
@@ -92,6 +98,10 @@ li {
 .link:hover {
   transform: scale(1.2); }
 
+.redesSocialesContacto {
+  font-size: 40px;
+  letter-spacing: 0.5rem; }
+
 @media only screen and (max-width: 768px) {
   .h1s {
     margin-top: 50px;
@@ -106,7 +116,7 @@ li {
     font-size: 20px;
     line-height: 30px; }
   .parrafoMain {
-    font-size: 13px; }
+    font-size: 10px; }
   imgNosotros {
     display: flex;
     flex-direction: row;
@@ -130,7 +140,14 @@ li {
   .articleNosotros {
     font-size: 15px; }
   .color {
-    font-size: 10px; } }
+    font-size: 10px; }
+  .spanIndex {
+    font-size: 12px; }
+  .spanServicios {
+    font-size: 12px; }
+  .redesSocialesContacto {
+    font-size: 20px;
+    letter-spacing: 2px; } }
 
 :root {
   --blue: #007bff;
