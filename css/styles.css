@@ -59,10 +59,12 @@ h2 {
   letter-spacing: 4px; }
 
 .parrafoMain {
-  font-size: 17px;
-  letter-spacing: 1px;
-  line-height: 2;
-  margin-top: 45px; }
+  font-size: 20px;
+  letter-spacing: 3px;
+  line-height: 2.5; }
+
+.colorIndexH3 {
+  color: #F98340; }
 
 .imgContactoRedes {
   transition: all 1s; }
